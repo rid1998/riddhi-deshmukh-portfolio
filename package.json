@@ -4,7 +4,7 @@
   "description": "app using nodemailer ",
   "main": "app.js",
   "scripts": {
-    "dev":"nodemon app.js",
+    "dev": "nodemon app.js",
     "start": "node app.js"
   },
   "author": "Riddhi Deshmukh",
@@ -13,6 +13,7 @@
     "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6",
+    "mongodb": "^4.8.1",
     "nodemailer": "^6.7.7"
   },
   "devDependencies": {
